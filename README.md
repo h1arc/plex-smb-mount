@@ -23,12 +23,14 @@
 
 ---
 
-## Usage
+## 🚀 Quick Usage (One-Liner)
+
+Run this on your Proxmox host:
 
 ```bash
-git clone https://github.com/yourusername/plex-smb-mount.git
-cd plex-smb-mount
-sudo bash plex-smb-mount.sh
+wget -O - https://raw.githubusercontent.com/h1arc/plex-smb-mount/main/plex-smb-mount.sh | sudo bash
+
+```
 
 ---
 
