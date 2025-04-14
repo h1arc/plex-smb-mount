@@ -1,4 +1,4 @@
-# Plex LXV SMB Mount on Proxmox
+# Plex LXC SMB Mount on Proxmox
 
 📦 A simple Bash script to securely mount an SMB share for a Plex LXC container on Proxmox.  
 ✅ Supports persistent mounts, secure credential handling, and automatic LXC config updates.
