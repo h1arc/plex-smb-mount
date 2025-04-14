@@ -34,5 +34,7 @@ wget -O - https://raw.githubusercontent.com/h1arc/plex-smb-mount/main/plex-smb-m
 
 ---
 
-## Do note this script is mostly for self usage so it could very well not work elsewhere.
+## Notes
+
+Do note this script is mostly for self usage so it could very well not work elsewhere.
 
