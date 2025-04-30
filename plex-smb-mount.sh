@@ -78,8 +78,10 @@ activate_automount() {
 # configure_container: bind-mount host directory into LXC and reboot
 configure_container() {
     LOG "[6/6] Configuring LXC container bind mount..."
-    pct set "$CONTAINER_ID" \
-        -mp0 host_path="$MOUNT_POINT",mp="$CONTAINER_MOUNT_PATH"
+-   pct set "$CONTAINER_ID" \
+-       -mp0 host_path="$MOUNT_POINT",mp="$CONTAINER_MOUNT_PATH"
++   pct set "$CONTAINER_ID" \
++       -mp0 "$MOUNT_POINT,mp=$CONTAINER_MOUNT_PATH"
     LOG "Rebooting container..."
     pct reboot "$CONTAINER_ID"
 }
